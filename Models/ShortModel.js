@@ -41,7 +41,11 @@ const Short = (sequelizeInstance) => {
             args: true,
             msg: "Long Url Can't be Empty!",
           },
-        },
+          isUrl: {
+            args: true,
+            msg: "Long Url Musr be URL!",
+          },
+        }, 
       },
       expaired_date: {
         type: Sequelize.DATEONLY,
