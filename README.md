@@ -19,7 +19,9 @@ Folder Routes digunakan untuk url RestFull API yang nantinya setiap url akan men
 ## File .env
 File ini digunakan untuk menyimpan data yang diperlukan oleh fungsi lain dan data yang disimpan bersifat dapat berubah ubah sesuai dengan environment pengembangan di local maupun di prodaction.
 ## File index.js
-Fili ini digunakan untuk file main atau file yang dijalankan pertama kali ketika aplikasi akan digunakan. Didalamnya terdapat pengecekan file index.js pada folder models untuk generate table dan kolom ke database secara otomatis. File ini dijalankan menggunakan Express.Js.
+Fili ini digunakan untuk file main atau file yang dijalankan pertama kali ketika aplikasi akan digunakan. Didalamnya terdapat pengecekan file index.js pada folder models untuk generate table dan kolom ke database secara otomatis. File ini dijalankan menggunakan Express.Js. Untuk menghindari spam menggunakan library express-rate-limit setiap menit setiap ip dapat melakukan request sebanyak 3x.
+
+![vd12](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/a085385a-86a6-49d5-b250-73e8e66d2b07)
 
 ## Endpoint Create Short Url 
 ### Code 
@@ -29,10 +31,39 @@ Pada code diatas untuk fungsi expaired data menggunakan library moment yang meng
 ### Request data with postman
 ![vd5](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/3e687d1f-ba5b-492f-8430-712e1d39011a)
 
-### Response Data with postman
+### create short url with postman
 ![vod6](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/66ce5e98-2e43-43b4-ad2e-b1eb0a8c9799)
 
 ## Endpoint Get short Url
 ### Code 
+![vd7](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/a65996a3-dc69-4c26-aacf-1f2cff3d971b)
+
+### Request data Get sort/:id
+![vd8](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/b78467fa-083e-443d-9a54-02d2505e706c)
+
+### Response data akan redirect ke long_url
+![vd9](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/05e49d22-a45b-43d5-897e-ea065ef180ea)
+
+## Gambar Table Short
+![vd10](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/28295773-29d6-46ab-bd80-75f4895f2ceb)
+
+## Testing Validasi
+### Data null atau kosong
+
+### Data bukan url
+
+### link sudah expaired
+
+
+
+
+
+
+
+
+
+
+
+
 
 
