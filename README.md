@@ -27,6 +27,12 @@ Fili ini digunakan untuk file main atau file yang dijalankan pertama kali ketika
 Pada code diatas untuk fungsi expaired data menggunakan library moment yang mengambil tanggal waktu clinet ditambah 5 tahun dan untuk mendpatkan url shorted menggunakan library shortid untuk mendapatkan url pendek yang uniq.
 
 ### Request data with postman
+![vd5](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/3e687d1f-ba5b-492f-8430-712e1d39011a)
 
+### Response Data with postman
+![vod6](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/66ce5e98-2e43-43b4-ad2e-b1eb0a8c9799)
+
+## Endpoint Get short Url
+### Code 
 
 
