@@ -50,19 +50,13 @@ Pada code diatas untuk fungsi expaired data menggunakan library moment yang meng
 ## Testing Validasi
 ### Data null atau kosong
 
+![vd_empty](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/81e86b99-abd1-4560-9a43-084092168ef8)
 ### Data bukan url
 
+![vd_mustUrl](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/64825cd7-73a2-4e40-9aed-48f5f094f481)
 ### link sudah expaired
 
-
-
-
-
-
-
-
-
-
+![vd_jika kode expaired](https://github.com/DiptyaBagusSumantry/test_vodea_short_url/assets/112381720/b76c511d-7120-47f5-b4a6-141e758d0665)
 
 
 
